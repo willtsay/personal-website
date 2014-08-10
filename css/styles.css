@@ -1,0 +1,54 @@
+body {
+  font-family: 'Oswald', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+#naver {
+  position: fixed;
+  top:0;
+  width: 100%;
+  color:#ffffff;
+  height:35px;
+  padding-top: 15px;
+  z-index: 10; 
+  background-color: #FFF; 
+}
+
+#naver a {
+  display:inline;
+  padding-left:15px;
+  padding-right:15px;
+  text-decoration: none;
+}
+
+.section {
+  position: relative;
+}
+
+
+h1{
+  display:block;
+  margin:100px;
+}
+
+.anchor {
+  display:block;
+  position:absolute;
+  top:-45px;
+  z-index:-1;
+  visibility: hidden;
+}
+
+.centered {
+  text-align: center
+}
+
+.title {
+  font-size: 2em
+}
+
+/*h1 {
+  display:inline-block;
+  margin:100px;
+}*/
