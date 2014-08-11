@@ -18,8 +18,8 @@ a:hover {
   color:gray;
 }
 
-.content:target{
-  color:green;
+.section:target{
+  display: block;
 }
 
 .social{
@@ -54,20 +54,26 @@ a:hover {
 
 .section {
   position: relative;
+  display: none;
 }
 
 
 h1{
   display:block;
-  /*margin:100px;*/
+  /*margin-top:50px;*/
 }
 
-.anchor {
+/*.anchor {
   display:block;
   position:absolute;
   top:-45px;
   z-index:-1;
   visibility: hidden;
+}*/
+
+.anchor2 {
+  position:relative;
+  /*top:-50px;*/
 }
 
 .centered {
