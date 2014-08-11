@@ -4,7 +4,35 @@ body {
   margin: 0;
 }
 
+
+a:visited {
+  color:black;
+}
+
+a:link {
+  color:black;
+}
+
+a:hover {
+  color:gray;
+}
+
+.social{
+  text-align: center;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.social a img{
+  display:inline-block;
+  height: 75;
+  width: 75;
+
+}
+
 #naver {
+  text-align: center;
+
   position: fixed;
   top:0;
   width: 100%;
@@ -28,8 +56,9 @@ body {
 
 
 h1{
+  text-align: center;
   display:block;
-  margin:100px;
+  /*margin:100px;*/
 }
 
 .anchor {
