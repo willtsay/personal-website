@@ -4,8 +4,6 @@ body {
   margin: 0;
 }
 
-
-
 a:visited {
   color:black;
 }
@@ -61,16 +59,7 @@ a:hover {
 
 h1{
   display:block;
-  /*margin-top:50px;*/
 }
-
-/*.anchor {
-  display:block;
-  position:absolute;
-  top:-45px;
-  z-index:-1;
-  visibility: hidden;
-}*/
 
 .anchor {
   position:relative;
