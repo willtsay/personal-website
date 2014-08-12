@@ -18,8 +18,8 @@ a:hover {
   color:gray;
 }
 
-.content:target{
-  color:green;
+.section:target{
+  display: block;
 }
 
 .social{
@@ -29,12 +29,13 @@ a:hover {
 
 .social a img{
   display:inline-block;
-  height: 75;
-  width: 75;
+  height: 100;
+  width: 100;
 
 }
 
 .naver {
+
   position: fixed;
   top:0;
   width: 100%;
@@ -54,20 +55,25 @@ a:hover {
 
 .section {
   position: relative;
+  display: none;
 }
 
 
 h1{
   display:block;
-  /*margin:100px;*/
+  /*margin-top:50px;*/
 }
 
-.anchor {
+/*.anchor {
   display:block;
   position:absolute;
   top:-45px;
   z-index:-1;
   visibility: hidden;
+}*/
+
+.anchor {
+  position:relative;
 }
 
 .centered {
@@ -75,6 +81,27 @@ h1{
 }
 
 .title {
-  font-size: 2em
+  font-size: 2em;
+  border-bottom:1px solid #111;
+  margin-left:17%;
+  margin-right:17%;
 }
 
+.underline{
+  border-bottom:1px solid #111;
+  margin-left:400px;
+  margin-right:400px;
+}
+
+
+.justify_left{
+  text-align:left;
+}
+
+.push_right{
+  margin-left:20%;
+}
+
+.push_left{
+  margin-right:20%;
+}
