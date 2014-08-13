@@ -20,6 +20,10 @@ a:hover {
   display: block;
 }
 
+.subsection:target{
+  display:block;
+}
+
 .social{
   margin-right:auto;
   margin-left:auto;
@@ -93,4 +97,8 @@ h1{
 
 .push_left{
   margin-right:20%;
+}
+
+.skill_icon{
+  width:150px;
 }
